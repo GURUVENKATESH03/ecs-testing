@@ -6,7 +6,7 @@ on:
       - main  # Triggers the pipeline every time you push code to the main branch
 
 env:
-  AWS_REGION: us-east-1                   # Change to your AWS region
+  AWS_REGION: ap-south-1                   # Change to your AWS region
   ECR_REPOSITORY: ecs-testing             # Your Amazon ECR repository name
 
 jobs:
